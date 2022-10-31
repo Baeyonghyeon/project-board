@@ -13,6 +13,9 @@ spring:
     username: kurt
     password: Samplekurt!2
     driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    driver-class-name: org.h2.Driver
   jpa:
     defer-datasource-initialization: true
     hibernate:
@@ -23,7 +26,7 @@ spring:
         format_sql: true # 한줄로 보여지는 쿼리문을 포매팅해서 예쁘게 보임
         default_batch_fetch_size: 100 # N+1 쿼리문을 해결하기 위한 방법중 하나임. 나중에 100개로 묶어서 처리(?)
 
-  h2.console.enabled: true
+#  h2.console.enabled: true
   sql.init.mode: always
 
 ---
