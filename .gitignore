@@ -44,9 +44,6 @@
 # *.iml
 # *.ipr
 
-#Querydsl
-/src/main/generated
-
 # CMake
 cmake-build-*/
 
